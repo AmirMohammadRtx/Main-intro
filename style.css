@@ -1,0 +1,53 @@
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    #particles-js {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background-color: #0d0d0d; /* یا هر رنگ بک‌گراندی که می‌خوای */
+      z-index: -1;
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+      color: white;
+      text-align: center;
+      margin-top: 20%;
+      font-size: 2rem;
+    }
+
+    .container {
+  position: relative;
+  z-index: 1; /* بالاتر از پارتیکل‌ها */
+}
+
+.right-section {
+  background: transparent; /* پس‌زمینه شفاف */
+  color: white; /* رنگ متن، اگر پشتش تیره‌ست */
+  text-align: center;
+  padding-top: 100px;
+  z-index: 1;
+  position: relative;
+}
+
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: #0d0d0d; /* رنگ بک‌گراند پارتیکل */
+}
+
+.right-section {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
