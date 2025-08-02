@@ -55,3 +55,7 @@
       },
       "retina_detect": true
     });
+    const video = document.getElementById('mainVideo');
+    video.addEventListener('canplaythrough', () => {
+      video.style.display = 'block';
+    });
