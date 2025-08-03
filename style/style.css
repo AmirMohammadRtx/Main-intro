@@ -178,15 +178,13 @@ header .content p {
   color: #757d80;
 }
 
-header img {
+header  img {
   position: relative;
 }
 
-.main-image img {
-  width: 400px;
-  max-width: 100%;
-  height: auto;
-  margin: 0 10rem;
+header .floating-image img{
+  width: 500px;
+  margin: 0 2rem;
 }
 
 /* Section Headers */
@@ -235,7 +233,6 @@ section .header {
   max-width: 100px;
   width: 100%;
   height: auto;
-
 }
 
 @keyframes floatUpDown {
@@ -251,10 +248,6 @@ section .header {
     transform: translateY(0px);
   }
 }
-
-
-
-
 
 
 /* Features Cards */
@@ -360,10 +353,9 @@ footer .column .socials a:hover {
 }
 
 .copyright {
-  max-width: 1200px;
   margin: auto;
-  padding: 1rem;
-  color: #000;
+  padding: 1rem 0;
+  color: #ffffff;
   font-size: 0.8rem;
   text-align: center;
 }
@@ -372,15 +364,15 @@ footer .column .socials a:hover {
 
 @media (max-width: 900px) {
   .nav-links {
-    display: none;
+    display:none;
   }
 
   header {
     grid-template-columns: 1fr;
   }
 
-  header .image {
-    grid-area: 1 / 1 / 2 / 2;
+  header .floating-image img {
+    display: none;
   }
 
   .features,
