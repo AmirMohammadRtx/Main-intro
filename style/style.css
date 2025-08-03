@@ -374,10 +374,12 @@ footer .column .socials a:hover {
 
   header {
     grid-template-columns: 1fr;
+    text-align: center;
   }
 
   header .floating-image img {
     display: none;
+    align-items: center;
   }
 
   .features,
