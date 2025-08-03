@@ -390,10 +390,7 @@ footer .column .socials a:hover {
   }
 
   header .floating-image {
-    max-width: 400px; 
-    margin: auto;
-    display: flex;
-    justify-content: center;
+    display: none;
   }
 
 
@@ -432,4 +429,63 @@ footer .column .socials a:hover {
   footer {
     grid-template-columns: 1fr 150px;
   }
+}
+.contact-section {
+  padding: 4rem 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.contact-form .form-group input::placeholder,
+.contact-form .form-group textarea::placeholder {
+  color: #ccc;
+}
+
+.contact-form .form-group input:focus,
+.contact-form .form-group textarea:focus {
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 10px #009ee7;
+}
+
+.submit-btn {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 0.8rem 1.5rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #009ee7;
+  color: #ffffff;
+  transform: translateY(-3px);
 }

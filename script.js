@@ -59,3 +59,5 @@
     video.addEventListener('canplaythrough', () => {
       video.style.display = 'block';
     });
+
+    
