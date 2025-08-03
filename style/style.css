@@ -391,7 +391,7 @@ footer .column .socials a:hover {
     margin: auto;
   }
 
-  header .image::before {
+  header image::before {
     display: none;
   }
 
