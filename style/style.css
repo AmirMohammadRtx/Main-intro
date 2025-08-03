@@ -10,6 +10,7 @@ body {
   font-style: normal;
   text-transform: capitalize;
   overflow-x: hidden;
+  min-width: 620px;
 }
 
 * {
@@ -378,9 +379,23 @@ footer .column .socials a:hover {
   }
 
   header .floating-image img {
-    display: none;
-    align-items: center;
+    background: rgba(227, 227, 227, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(50px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 1.5rem;
+    color: #fff;
   }
+
+  header .floating-image {
+    max-width:10px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+
 
   .features,
   .pricing {
@@ -402,8 +417,10 @@ footer .column .socials a:hover {
     padding: 0 1rem;
   }
 
-  header image::before {
-    display: none;
+
+  .floating-video {
+    max-width: 100%;
+    width: 100%;
   }
 
   .features,
