@@ -10,7 +10,6 @@ body {
   font-style: normal;
   text-transform: capitalize;
   overflow-x: hidden;
-  min-width: 602px;
 }
 
 * {
