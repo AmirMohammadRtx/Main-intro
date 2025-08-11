@@ -179,6 +179,12 @@ header img {
   position: relative;
 }
 
+.level{
+  color: #7d82c6;
+  font-size: 1.2rem;
+  font-family: ;
+}
+
 header .floating-image img {
   width: 500px;
   margin: 0 2rem;
@@ -254,24 +260,28 @@ section .header {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
+  background-color:#ffffff17;
+  padding: 5rem;
+  border-radius: 1rem;
+  gap: 1rem 1rem;
 }
 
 .features .card {
   background-color: #ffffff;
-  padding: 1rem;
-  border: 2px solid;
+  box-shadow: 0 2px 50px 2px #0040ff2c;
+  padding: 1rem ;
   border-radius: 15px;
+  height: 100%;
   transition: all 0.4s ease;
   color: #000000;
+
 }
 
 .features .card:hover {
   cursor: pointer;
-  background-color: #dfe6e9;
-  border-color: #009ee7;
   transform: translateY(-15px);
-  border: 2px solid;
-
+  box-shadow: 0 2px 50px 2px #0040ff7d;
+  background-color: #ffffffda;
 }
 
 .features .card span {
@@ -281,8 +291,8 @@ section .header {
   font-size: 1.75rem;
   color: #0040ff;
   border-radius: 10px;
-
 }
+
 
 .features .card h4 {
   margin-bottom: 0.5rem;
@@ -434,11 +444,10 @@ footer .column .socials a:hover {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(213, 213, 213, 0.144);
   padding: 2rem;
   border-radius: 12px;
-  backdrop-filter: blur(10px);
-  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
 }
 
 .contact-form .form-group input,
